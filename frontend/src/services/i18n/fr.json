@@ -1,0 +1,25 @@
+{
+  "register": {
+    "title": "Créez votre compte",
+    "lastname": "Nom de famille",
+    "firstname": "Prénom",
+    "email": "Courriel",
+    "password": "Mot de passe",
+    "password_bis": "Répéter le mot de passe",
+    "profile_picture": "Photo de profil",
+    "phone_number": "Numéro de téléphone",
+    "adress": "Adresse",
+    "postal_code": "Code postal",
+    "city": "Ville",
+    "producer": "Etes-vous producteur ?",
+    "submit": "Je m'inscris",
+    "passnotsame": "Les mots de passe ne sont pas identiques"
+  },
+  "login":{
+    "title": "Connectez-vous à votre compte",
+    "submit": "Se connecter",
+    "error" : " Les informations sont incorrects",
+    "forgotPass" : "Mot de passe oublié ?",
+    "remember" : "Se souvenir de moi"
+  }
+}

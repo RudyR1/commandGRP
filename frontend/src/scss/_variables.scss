@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+$Paper-Light: rgba(255, 255, 255, 1);
+$Paper-Dark: rgb(66, 66, 66);
+$Default-Light: rgb(250, 250, 250);
+$Default-Dark: rgb(48, 48, 48);
+
+//Colors
+$Primary-Main: rgb(139, 195, 74);
+$Primary-Light: rgb(220, 237, 200);
+$Primary-Dark: rgb(85, 139, 47);
+$Secondary-Main: rgb(156, 39, 176);
+$Secondary-Light: rgb(225, 190, 231);
+$Secondary-Dark: rgb(106, 27, 154);
+$Accent-Main: rgb(255, 193, 7);
+$Accent-Light: rgb(255, 236, 179);
+$Accent-Dark: rgb(85, 139, 47);
+
+//text colors
+$Text-Primary: rgba(0, 0, 0, 0.87);
+$Text-Secondary: rgba(0, 0, 0, 0.54);
+$Text-Sec-DarkMode: rgba(255, 255, 255, 0.7);
+$Text-Disabled: rgba(0, 0, 0, 0.38);
+$Text-Field: rgba(0, 0, 0, 0.42);
+
+//Fonts
+$primary-font: "Open Sans", sans-serif;
+$regular-font: 400;
+$medium-font: 600;
+$bold-font: 700;
+
+$font-size-xxxxxl: 3rem;
+$font-size-xxxxl: 2rem;
+$font-size-xxxl: 1.625rem;
+$font-size-xxl: 1.5rem;
+$font-size-xl: 1.4rem;
+$font-size-l: 1.2rem;
+$font-size-m: 1rem;
+$font-size-s: 0.875rem;
+$font-size-xs: 0.75rem;
+$font-size-xxs: 0.65rem;
+$font-size-xxxs: 0.55rem;
+
+$border-radius: 10px;

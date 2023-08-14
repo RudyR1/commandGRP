@@ -1,0 +1,25 @@
+{
+  "register": {
+    "title": "Create Your Account",
+    "lastname": "Lastname",
+    "firstname": "Firstname",
+    "email": "Email",
+    "password": "Password",
+    "password_bis": "Repeat the password",
+    "profile_picture": "Profile picture",
+    "phone_number": "Phone number",
+    "adress": "Adress",
+    "postal_code": "Postal Code",
+    "city": "City",
+    "producer": " Are you a producer ?",
+    "submit": "I'm registering",
+    "passnotsame": "Passwords are different"
+  },
+  "login": {
+    "title": "Login to Your Account",
+    "submit": "Connect",
+    "error": " Information are incorrect",
+    "forgotPass": "Forgot Password ?",
+    "remember" : "Remember me"
+  }
+}

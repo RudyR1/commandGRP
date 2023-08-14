@@ -1,0 +1,104 @@
+@import "./variables";
+
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100vw;
+  margin: 1rem;
+
+  .form_bloc {
+    width: 50vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $Primary-Main;
+    border-radius: $border-radius;
+
+    .form_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 60%;
+      width: 85%;
+
+      .login_title {
+        text-align: center;
+        font-size: 1.5rem;
+        color: $Primary-Dark;
+        font-weight: $bold-font;
+        font-family: $primary-font;
+      }
+
+      .logError_modal{
+        color: red;
+        font-weight: $regular-font;
+        font-family: $primary-font;
+      }
+
+      .login_bottom {
+        display: flex;
+        justify-content: space-between;
+        width: 82%;
+        text-align: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-weight: $regular-font;
+        font-size: $font-size-s;
+        color: $Primary-Main;
+        label {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: center;
+          align-items: center;
+        }
+        .forgot_pass {
+          text-align: end;
+          cursor: pointer;
+        }
+        #remember {
+          width: 1rem;
+          height: auto;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .login_img {
+    max-width: 49%;
+    height: auto;
+  }
+
+  input {
+    width: 80%;
+    height: 2.5rem;
+    border-radius: $border-radius;
+    padding-left: 1rem;
+    border: 1px solid $Text-Field;
+    font-family: $primary-font;
+    font-weight: $regular-font;
+    color: $Primary-Dark;
+    &#password {
+      border: 1px solid $Primary-Main;
+      &:focus {
+        color: $Primary-Dark;
+        outline: none;
+        border: 1.9px solid $Accent-Dark;
+      }
+    }
+    &::placeholder {
+      color: $Text-Field;
+    }
+    &:focus {
+      color: $Primary-Dark;
+      outline: none;
+      border: 1.9px solid $Accent-Dark;
+    }
+  }
+}
+

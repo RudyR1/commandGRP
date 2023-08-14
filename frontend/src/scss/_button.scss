@@ -1,0 +1,64 @@
+@import "./variables";
+
+.primary {
+  background-color: $Primary-Main;
+  border-radius: $border-radius;
+  border: 1px solid $Primary-Main;
+  width: 10rem;
+  height: 2.5rem;
+  color: $Text-Sec-DarkMode;
+  font-family: $primary-font;
+  font-weight: $regular-font;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: $font-size-m;
+  cursor: pointer;
+  &_large {
+    @extend .primary;
+    width: 12rem;
+    height: 3.5rem;
+    font-size: $font-size-xxl;
+  }
+  &_small {
+    @extend .primary;
+    width: 7.5em;
+    height: 1.8rem;
+    font-size: $font-size-xs;
+  }
+  &:hover {
+    background-color: $Paper-Light;
+    color: $Primary-Main;
+    transform :scale(1.1);
+  }
+}
+
+.secondary {
+  background-color: $Secondary-Main;
+  border-radius: $border-radius;
+  border: 1px solid $Secondary-Main;
+  width: 10rem;
+  height: 2.5rem;
+  color: $Text-Sec-DarkMode;
+  font-family: $primary-font;
+  font-weight: $regular-font;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: $font-size-m;
+  cursor: pointer;
+  &_large {
+    @extend .secondary;
+    width: 12rem;
+    height: 3.5rem;
+    font-size: $font-size-xxl;
+  }
+  &_small {
+    @extend .secondary;
+    width: 7.5em;
+    height: 1.8rem;
+    font-size: $font-size-xs;
+  }
+  &:hover {
+    background-color: $Paper-Light;
+    color: $Secondary-Main;
+  }
+}
