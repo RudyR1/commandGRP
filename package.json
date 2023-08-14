@@ -6,6 +6,7 @@
     "cli": "npm"
   },
   "scripts": {
+    "start": "cross-env-shell 'concurrently -c green,yellow -t \"HH:mm:ss\" -p \"{name} {time}\" \"$npm_package_config_cli:start-*\"'",
     "postinstall": "cross-env-shell \"cd ./frontend && $npm_package_config_cli install && cd ../backend && $npm_package_config_cli install\"",
     "migrate": "cd ./backend && node migrate.js",
     "dev": "cross-env-shell 'concurrently -c green,yellow -t \"HH:mm:ss\" -p \"{name} {time}\" \"$npm_package_config_cli:dev-*\"'",
